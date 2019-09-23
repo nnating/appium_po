@@ -17,7 +17,7 @@ class TestRelease:
     @pytest.mark.parametrize('title,content',[("自动化测试标题"+str(random.randint(1,9999))+"","自动化测试内容"+str(random.randint(1,9999))+"")])
     def test_release_suc(self,title,content):
         self.ability.goto_question().click_dept().choice_deptname().input_title(title).input_content(content).click_Release()
-        assert self.ability.goto_profile().goto_new_moderated_number_page().get_new_moderated_title() == title
+        assert self.ability.goto_profile().goto_newmoderated().get_new_moderated_title() == title
 
     def test_voice(self):
         self.ability.goto_question().click_switchvoice().long_click_voice()

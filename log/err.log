@@ -29,3 +29,7 @@
 [ERROR 2019-09-23 16:37:18]等待元素：('id', 'com.mmm.ability:id/tvNewModeratedNumber')超时
 [ERROR 2019-09-23 16:37:21]等待元素：('id', 'com.mmm.ability:id/ivTitle')超时
 [ERROR 2019-09-23 16:37:22]等待元素：('id', 'com.mmm.ability:id/ivTitle')超时
+[ERROR 2019-09-23 17:14:51]等待元素：('id', 'com.mmm.ability:id/ivTitle')超时
+[ERROR 2019-09-23 17:21:02]等待元素：('id', 'com.mmm.ability:id/ivScoreIncrease')超时
+[ERROR 2019-09-23 17:45:16]等待元素：('id', 'com.mmm.ability:id/ivSkip')超时
+[ERROR 2019-09-23 17:52:02]点击元素：('id', 'com.mmm.ability:id/ivMine')失败

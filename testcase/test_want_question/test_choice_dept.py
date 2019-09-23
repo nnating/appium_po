@@ -20,6 +20,4 @@ class TestChoiceDept:
     # def test_choice_dept_3(self):
     #     assert "测试部111" not in self.ability.goto_question().click_dept().choice_deptname().get_deptname()
 
-    # def teardown(self):
-    #     self.ability.goto_question().click_back()
 

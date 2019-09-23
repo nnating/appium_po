@@ -4,18 +4,24 @@
 from selenium.webdriver.common.by import By
 
 from page.base_page import BasePage
-from page.profile_account.new_moderated_number_page import NewModeratedNumberPage
+from page.profile_account.mycheck_page import MyCheckPage
+
+from page.profile_account.newmoderated_page import NewModeratedNumberPage
 
 
 class ProfilePage(BasePage):
 
     _NewModeratedNumber = (By.ID,"com.mmm.ability:id/tvNewModeratedNumber")
-    _mytocheck = (By.ID, "com.mmm.ability:id/clMyToCheck")
-    _mytochecknum = (By.ID,"com.mmm.ability:id/tvMyToCheckNumber")
+    _mycheck = (By.ID, "com.mmm.ability:id/clMyToCheck")
+    #_mytochecknum = (By.ID,"com.mmm.ability:id/tvMyToCheckNumber")
 
-    def goto_new_moderated_number_page(self):
+    def goto_newmoderated(self):
         self.click_element(self._NewModeratedNumber)
         return NewModeratedNumberPage(self.driver)
+
+    def goto_mycheck(self):
+        self.click_element(self._mycheck)
+        return MyCheckPage(self.driver)
 
 
 

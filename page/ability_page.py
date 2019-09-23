@@ -43,6 +43,8 @@ class AbilityPage(BasePage):
         self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
         self.driver.implicitly_wait(10)
 
+
+
         self.click_element(self.tvTabPwd)
         self.input_text(self.account,account_value)
         self.input_text(self.password,password_value)

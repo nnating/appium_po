@@ -1,6 +1,6 @@
 # @Time     :2019/9/23 10:27
 # @Author   :dengyuting
-# @File     :new_moderated_number_page.py
+# @File     :newmoderated_page.py
 from selenium.webdriver.common.by import By
 
 from page.base_page import BasePage

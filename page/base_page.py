@@ -93,7 +93,7 @@ class BasePage:
         return (By.XPATH, "//*[@text='%s']" %locator)
 
     @classmethod
-    def toast_location(cls):
+    def toast_location(cls) -> WebElement:
         return (By.XPATH, "//*[@class='android.widget.Toast']")
 
     def save_image(self):
@@ -108,11 +108,7 @@ class BasePage:
             self.save_image()
         return screenshot_img
 
-    def scroll_text(self,text_value):
-        self.driver.find_element_by_android_uiautomator('new UiScrollable('
-                                                        'new UiSelector().scrollable(true).instance(0))'
-                                                        '.scrollIntoView('
-                                                        'new UiSelector().text("'+text_value+'").instance(0));')
+
 
     #滚动查找点击
     def scroll_text_click(self,text_value):
@@ -120,6 +116,7 @@ class BasePage:
                                                         'new UiSelector().scrollable(true).instance(0))'
                                                         '.scrollIntoView('
                                                         'new UiSelector().text("'+text_value+'").instance(0));').click()
+        MyLog.info("找到text:{}".format(text_value))
 
     #长按
     def long_click(self,locator):
@@ -133,6 +130,11 @@ class BasePage:
             self.save_image()
             raise e
 
+    def swipe_locator(self):
+        self.height = self.driver.get_window_size()['height']
+        self.width = self.driver.get_window_size()['width']
+        for i in range(5):
+            self.driver.swipe(self.width*0.8, self.height*0.9, self.width*0.2, self.height*0.1, 1000)
 
 
 
