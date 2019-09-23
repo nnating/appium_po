@@ -1,0 +1,61 @@
+[ {
+  "uid" : "ecf45bcc9084d9a8",
+  "name" : "test_choice_dept_1",
+  "time" : {
+    "start" : 1569227813024,
+    "stop" : 1569227816795,
+    "duration" : 3771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "796fd394238f33d8",
+  "name" : "test_choice_dept_2",
+  "time" : {
+    "start" : 1569227820779,
+    "stop" : 1569227824580,
+    "duration" : 3801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a7aa2f2c7f488a8",
+  "name" : "test_voice",
+  "time" : {
+    "start" : 1569227839196,
+    "stop" : 1569227839196,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f1d5850a47cbe965",
+  "name" : "test_voice_2",
+  "time" : {
+    "start" : 1569227842805,
+    "stop" : 1569227842805,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "79fd555de7970d20",
+  "name" : "test_voice_1",
+  "time" : {
+    "start" : 1569227841172,
+    "stop" : 1569227841172,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1343897a1df908f1",
+  "name" : "test_release_suc[自动化测试标题879-自动化测试内容9241]",
+  "time" : {
+    "start" : 1569227829265,
+    "stop" : 1569227838975,
+    "duration" : 9710
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

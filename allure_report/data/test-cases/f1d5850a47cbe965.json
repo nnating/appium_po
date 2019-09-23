@@ -1,0 +1,57 @@
+{
+  "uid" : "f1d5850a47cbe965",
+  "name" : "test_voice_2",
+  "fullName" : "testcase.test_want_question.test_release.TestRelease#test_voice_2",
+  "historyId" : "67b8484360a3f5fa3f8a4c37d01e146d",
+  "time" : {
+    "start" : 1569227842805,
+    "stop" : 1569227842805,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: reason='跳过这条测试用例'",
+  "statusTrace" : "('testcase\\\\test_want_question\\\\test_release.py', 30, \"Skipped: reason='跳过这条测试用例'\")",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase.test_want_question"
+  }, {
+    "name" : "suite",
+    "value" : "test_release"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRelease"
+  }, {
+    "name" : "host",
+    "value" : "PC-20181007BGNP"
+  }, {
+    "name" : "thread",
+    "value" : "7968-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_want_question.test_release"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1d5850a47cbe965.json",
+  "parameterValues" : [ ]
+}

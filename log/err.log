@@ -1,0 +1,31 @@
+[ERROR 2019-09-22 20:08:43]This is error
+[ERROR 2019-09-22 21:04:34]等待元素可见超时
+[ERROR 2019-09-22 21:14:15]等待元素超时
+[ERROR 2019-09-22 21:14:18]等待元素超时
+[ERROR 2019-09-22 21:50:10]等待元素超时
+[ERROR 2019-09-22 21:50:11]等待元素超时
+[ERROR 2019-09-23 10:36:50]等待元素：('id', 'id/ivMine')超时
+[ERROR 2019-09-23 10:40:28]等待元素：('id', 'id/ivMine')超时
+[ERROR 2019-09-23 10:45:56]等待元素：('id', 'NewModeratedNumber')超时
+[ERROR 2019-09-23 10:48:06]等待元素：('id', 'NewModeratedNumber')超时
+[ERROR 2019-09-23 10:50:49]等待元素：('id', 'NewModeratedNumber')超时
+[ERROR 2019-09-23 10:52:52]等待元素：('xpath', "//*[@text='待领导审核']")超时
+[ERROR 2019-09-23 10:53:59]等待元素：('xpath', "//*[@resource-id='com.mmm.ability:id/recyclerView']/[@class='android.widget.LinearLayout' and @index=1]/[@resource-id='com.mmm.ability:id/llQueBody']")超时
+[ERROR 2019-09-23 11:01:18]等待元素：('id', 'com.mmm.ability:id/ivMine')超时
+[ERROR 2019-09-23 11:12:27]等待元素：('id', 'etQueContent')超时
+[ERROR 2019-09-23 14:00:16]长按元素：按住说话失败
+[ERROR 2019-09-23 14:02:19]长按元素：按住说话失败
+[ERROR 2019-09-23 15:18:42]等待元素：('id', 'com.mmm.ability:id/ivMine')超时
+[ERROR 2019-09-23 15:21:14]等待元素：('id', 'com.mmm.ability:id/ivMine')超时
+[ERROR 2019-09-23 15:24:40]等待元素：('xpath', "(//*[@resource-id='com.mmm.ability:id/recyclerView']/[@class='android.widget.LinearLayout'])[1]")超时
+[ERROR 2019-09-23 15:29:55]等待元素：('id', 'com.mmm.ability:id/ivTitle')超时
+[ERROR 2019-09-23 15:33:05]等待元素：('xpath', "(//*[@resource-id='com.mmm.ability:id/recyclerView']/[@class='android.widget.LinearLayout'])[1]")超时
+[ERROR 2019-09-23 15:38:05]等待元素：('xpath', "(//*[@resource-id='com.mmm.ability:id/recyclerView']//[@class='android.widget.LinearLayout'])[1]")超时
+[ERROR 2019-09-23 15:41:36]等待元素：('id', 'com.mmm.ability:id/ivMine')超时
+[ERROR 2019-09-23 15:43:51]等待元素：('id', 'com.mmm.ability:id/ivScoreIncrease')超时
+[ERROR 2019-09-23 15:46:26]等待元素：('id', 'com.mmm.ability:id/tvMyToCheckNumber')超时
+[ERROR 2019-09-23 15:47:27]等待元素：('id', 'com.mmm.ability:id/tvMyToCheckNumber')超时
+[ERROR 2019-09-23 15:48:47]等待元素：('xpath', "(//*[@resource-id='com.mmm.ability:id/tvQueTitle'])[1]")超时
+[ERROR 2019-09-23 16:37:18]等待元素：('id', 'com.mmm.ability:id/tvNewModeratedNumber')超时
+[ERROR 2019-09-23 16:37:21]等待元素：('id', 'com.mmm.ability:id/ivTitle')超时
+[ERROR 2019-09-23 16:37:22]等待元素：('id', 'com.mmm.ability:id/ivTitle')超时

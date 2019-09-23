@@ -1,0 +1,49 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up",
+      "children" : [ {
+        "name" : "test_release_suc[自动化测试标题879-自动化测试内容9241]",
+        "uid" : "1343897a1df908f1",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1569227829265,
+          "stop" : 1569227838975,
+          "duration" : 9710
+        },
+        "flaky" : false,
+        "parameters" : [ "'自动化测试内容9241'", "'自动化测试标题879'" ]
+      }, {
+        "name" : "test_voice",
+        "uid" : "1a7aa2f2c7f488a8",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1569227839196,
+          "stop" : 1569227839196,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_voice_1",
+        "uid" : "79fd555de7970d20",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1569227841172,
+          "stop" : 1569227841172,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61210c8c1bc92ab0b3c53e7d2009b9f7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

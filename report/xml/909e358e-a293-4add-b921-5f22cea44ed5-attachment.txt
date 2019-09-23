@@ -1,0 +1,116 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "New_Device_API_29", "appium:appPackage": "com.mmm.ability", "appium:appActivity": ".ui.splash.SplashActivity", "appium:autoGrantPermissions": true, "appium:noreset": true}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "New_Device_API_29", "appPackage": "com.mmm.ability", "appActivity": ".ui.splash.SplashActivity", "autoGrantPermissions": true, "noreset": true}}
+DEBUG    urllib3.connectionpool:connectionpool.py:206 Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 926
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:45]等待元素：('id', 'com.mmm.ability:id/tvTabPwd')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element {"using": "id", "value": "com.mmm.ability:id/tvTabPwd"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/b341701e-bf4e-4e01-a0bf-7bb34c98d50b/displayed {"id": "b341701e-bf4e-4e01-a0bf-7bb34c98d50b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/b341701e-bf4e-4e01-a0bf-7bb34c98d50b/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:46]点击元素：('id', 'com.mmm.ability:id/tvTabPwd')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/b341701e-bf4e-4e01-a0bf-7bb34c98d50b/click {"id": "b341701e-bf4e-4e01-a0bf-7bb34c98d50b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/b341701e-bf4e-4e01-a0bf-7bb34c98d50b/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:46]等待元素：('id', 'com.mmm.ability:id/etAccount')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element {"using": "id", "value": "com.mmm.ability:id/etAccount"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/5bd97c84-3527-4837-9ac1-b58317d510ca/displayed {"id": "5bd97c84-3527-4837-9ac1-b58317d510ca"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/5bd97c84-3527-4837-9ac1-b58317d510ca/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:47]点击：('id', 'com.mmm.ability:id/etAccount')，输入：13559112967
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/5bd97c84-3527-4837-9ac1-b58317d510ca/value {"text": "13559112967", "value": ["1", "3", "5", "5", "9", "1", "1", "2", "9", "6", "7"], "id": "5bd97c84-3527-4837-9ac1-b58317d510ca"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/5bd97c84-3527-4837-9ac1-b58317d510ca/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:47]等待元素：('id', 'com.mmm.ability:id/etPwd')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element {"using": "id", "value": "com.mmm.ability:id/etPwd"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/d865baa3-4907-4448-ad65-d121c406314d/displayed {"id": "d865baa3-4907-4448-ad65-d121c406314d"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/d865baa3-4907-4448-ad65-d121c406314d/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:48]点击：('id', 'com.mmm.ability:id/etPwd')，输入：123456
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/d865baa3-4907-4448-ad65-d121c406314d/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "d865baa3-4907-4448-ad65-d121c406314d"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/d865baa3-4907-4448-ad65-d121c406314d/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:48]等待元素：('id', 'com.mmm.ability:id/tvToLogin')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element {"using": "id", "value": "com.mmm.ability:id/tvToLogin"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/e149184b-6613-4165-99a0-dca9d4a186fb/displayed {"id": "e149184b-6613-4165-99a0-dca9d4a186fb"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/e149184b-6613-4165-99a0-dca9d4a186fb/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:49]点击元素：('id', 'com.mmm.ability:id/tvToLogin')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/e149184b-6613-4165-99a0-dca9d4a186fb/click {"id": "e149184b-6613-4165-99a0-dca9d4a186fb"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/e149184b-6613-4165-99a0-dca9d4a186fb/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:49]等待元素：('id', 'com.mmm.ability:id/ivSkip')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element {"using": "id", "value": "com.mmm.ability:id/ivSkip"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/4e57035e-1d9c-4ea4-976b-e79176ce24bd/displayed {"id": "4e57035e-1d9c-4ea4-976b-e79176ce24bd"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/4e57035e-1d9c-4ea4-976b-e79176ce24bd/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:51]点击元素：('id', 'com.mmm.ability:id/ivSkip')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/4e57035e-1d9c-4ea4-976b-e79176ce24bd/click {"id": "4e57035e-1d9c-4ea4-976b-e79176ce24bd"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/4e57035e-1d9c-4ea4-976b-e79176ce24bd/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:52]等待元素：('id', 'com.mmm.ability:id/ivTitle')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element {"using": "id", "value": "com.mmm.ability:id/ivTitle"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/c8329f8d-0ea2-4ba6-bedb-d666f2a46bbc/displayed {"id": "c8329f8d-0ea2-4ba6-bedb-d666f2a46bbc"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/c8329f8d-0ea2-4ba6-bedb-d666f2a46bbc/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:53]等待元素：('id', 'lavWantToQuestion')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element {"using": "id", "value": "lavWantToQuestion"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/6299c60a-3020-4126-9f97-4b657d7f6f3f/displayed {"id": "6299c60a-3020-4126-9f97-4b657d7f6f3f"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/6299c60a-3020-4126-9f97-4b657d7f6f3f/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:53]点击元素：('id', 'lavWantToQuestion')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/6299c60a-3020-4126-9f97-4b657d7f6f3f/click {"id": "6299c60a-3020-4126-9f97-4b657d7f6f3f"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/6299c60a-3020-4126-9f97-4b657d7f6f3f/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:54]等待元素：('id', 'tvAddDept')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element {"using": "id", "value": "tvAddDept"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/3875af22-c1f2-4e9c-af48-64f8172aed6c/displayed {"id": "3875af22-c1f2-4e9c-af48-64f8172aed6c"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/3875af22-c1f2-4e9c-af48-64f8172aed6c/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:54]点击元素：('id', 'tvAddDept')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/3875af22-c1f2-4e9c-af48-64f8172aed6c/click {"id": "3875af22-c1f2-4e9c-af48-64f8172aed6c"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/3875af22-c1f2-4e9c-af48-64f8172aed6c/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:54]等待元素：('xpath', "//*[@text='研发部']")
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element {"using": "xpath", "value": "//*[@text='\u7814\u53d1\u90e8']"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/c1c8521e-e558-46b6-ad72-28ffdcfddfca/displayed {"id": "c1c8521e-e558-46b6-ad72-28ffdcfddfca"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/c1c8521e-e558-46b6-ad72-28ffdcfddfca/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:55]点击元素：('xpath', "//*[@text='研发部']")
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/c1c8521e-e558-46b6-ad72-28ffdcfddfca/click {"id": "c1c8521e-e558-46b6-ad72-28ffdcfddfca"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/c1c8521e-e558-46b6-ad72-28ffdcfddfca/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:56]等待元素：('id', 'tvDeptName')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element {"using": "id", "value": "tvDeptName"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "POST /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/9731481e-33eb-4709-8470-9d40be44994e/displayed {"id": "9731481e-33eb-4709-8470-9d40be44994e"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/9731481e-33eb-4709-8470-9d40be44994e/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/9731481e-33eb-4709-8470-9d40be44994e/text {"id": "9731481e-33eb-4709-8470-9d40be44994e"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/9731481e-33eb-4709-8470-9d40be44994e/text HTTP/1.1" 200 83
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:log.py:71 [INFO 2019-09-23 16:36:56]获取：('id', 'tvDeptName')元素文本：研发部
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/9731481e-33eb-4709-8470-9d40be44994e/text {"id": "9731481e-33eb-4709-8470-9d40be44994e"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:4723 "GET /wd/hub/session/c3614ea9-107a-4011-abc1-02007c750656/element/9731481e-33eb-4709-8470-9d40be44994e/text HTTP/1.1" 200 83
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

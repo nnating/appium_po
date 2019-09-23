@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"broken","testcase.test_want_question.test_release.TestRelease#test_voice_1","0",""
+"passed","testcase.test_want_question.test_choice_dept.TestChoiceDept#test_choice_dept_2","3801",""
+"broken","testcase.test_want_question.test_release.TestRelease#test_release_suc","9710",""
+"skipped","testcase.test_want_question.test_release.TestRelease#test_voice_2","0",""
+"broken","testcase.test_want_question.test_release.TestRelease#test_voice","0",""
+"passed","testcase.test_want_question.test_choice_dept.TestChoiceDept#test_choice_dept_1","3771",""

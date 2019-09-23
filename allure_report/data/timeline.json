@@ -1,0 +1,85 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-20181007BGNP",
+    "children" : [ {
+      "name" : "7968-MainThread",
+      "children" : [ {
+        "name" : "test_voice_1",
+        "uid" : "79fd555de7970d20",
+        "parentUid" : "da5347f876f767e8278122de9dfddda1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1569227841172,
+          "stop" : 1569227841172,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_choice_dept_2",
+        "uid" : "796fd394238f33d8",
+        "parentUid" : "da5347f876f767e8278122de9dfddda1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569227820779,
+          "stop" : 1569227824580,
+          "duration" : 3801
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_release_suc[自动化测试标题879-自动化测试内容9241]",
+        "uid" : "1343897a1df908f1",
+        "parentUid" : "da5347f876f767e8278122de9dfddda1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1569227829265,
+          "stop" : 1569227838975,
+          "duration" : 9710
+        },
+        "flaky" : false,
+        "parameters" : [ "'自动化测试内容9241'", "'自动化测试标题879'" ]
+      }, {
+        "name" : "test_voice_2",
+        "uid" : "f1d5850a47cbe965",
+        "parentUid" : "da5347f876f767e8278122de9dfddda1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1569227842805,
+          "stop" : 1569227842805,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_voice",
+        "uid" : "1a7aa2f2c7f488a8",
+        "parentUid" : "da5347f876f767e8278122de9dfddda1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1569227839196,
+          "stop" : 1569227839196,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_choice_dept_1",
+        "uid" : "ecf45bcc9084d9a8",
+        "parentUid" : "da5347f876f767e8278122de9dfddda1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569227813024,
+          "stop" : 1569227816795,
+          "duration" : 3771
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da5347f876f767e8278122de9dfddda1"
+    } ],
+    "uid" : "e2617168eb618af7a1335dcdd7b6de87"
+  } ]
+}
