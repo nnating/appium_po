@@ -41,7 +41,7 @@ class BasePage:
     def wait_element_visibility(self, locator) -> WebElement:
         MyLog.info("等待元素：{}".format(locator))
         try:
-            element = WebDriverWait(self.driver, 20).until(expected_conditions.visibility_of_element_located(locator))
+            element = WebDriverWait(self.driver, 20).until(expected_conditions.presence_of_element_located(locator))
             return element
         except Exception as e:
             MyLog.error("等待元素：{}超时".format(locator))
@@ -92,9 +92,18 @@ class BasePage:
     def text_locator(cls, locator):
         return (By.XPATH, "//*[@text='%s']" %locator)
 
-    @classmethod
-    def toast_location(cls) -> WebElement:
-        return (By.XPATH, "//*[@class='android.widget.Toast']")
+    #@classmethod
+    def get_toast_msg(self,locator):
+        #return (By.XPATH, "//*[@class='android.widget.Toast']")
+        #return (By.XPATH, "//*[@text='审核成功']")
+        toast_msg = self.wait_element_visibility(locator)
+        try:
+            MyLog.info("获取toast元素：{}，文本：{}".format(locator, toast_msg.text))
+            return toast_msg.text
+        except Exception as e:
+            MyLog.error("获取toast元素文本：{}失败".format(toast_msg.text))
+            self.save_image()
+            raise e
 
     def save_image(self):
         try:
@@ -102,7 +111,7 @@ class BasePage:
             screenshot_dir = os.path.join(base_dir, "image")
             screenshot_img = os.path.join(screenshot_dir, str(int(time.time())) + ".png")
             self.driver.get_screenshot_as_file(screenshot_img)
-            MyLog.info('保存截图至:image')
+            MyLog.info('保存截图至:{}'.format(screenshot_img))
         except NameError as e:
             MyLog.info('保存截图失败：%s' % e)
             self.save_image()

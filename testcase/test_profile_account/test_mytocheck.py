@@ -14,6 +14,6 @@ class TestMyToCheck:
         self.mycheckdetail.click_receiveque_yes()
         self.mycheckdetail.click_scoreinc()
         self.mycheckdetail.click_submit()
-        assert "审核成功" in self.mycheckdetail.get_toast().text
+        check_toast = self.mycheckdetail.get_toast()
+        assert "审核成功" in check_toast
 
-    # def

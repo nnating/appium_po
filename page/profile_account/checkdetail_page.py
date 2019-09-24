@@ -10,6 +10,7 @@ class CheckDetailPage(BasePage):
     _receiveque_yes = (By.ID,"com.mmm.ability:id/tvYes")
     _submit = (By.ID,"com.mmm.ability:id/tvSubmit")
     _scoreincrease = (By.ID,"com.mmm.ability:id/ivScoreIncrease")
+    _mycheck_toast = (By.XPATH, "//*[contains(@text,'审核成功')]")
 
     def click_receiveque_yes(self):
         self.click_element(self._receiveque_yes)
@@ -22,4 +23,5 @@ class CheckDetailPage(BasePage):
         self.click_element(self._scoreincrease)
 
     def get_toast(self):
-        self.toast_location()
+        mycheck_toast = self.get_toast_msg(self._mycheck_toast)
+        return mycheck_toast
