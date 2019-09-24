@@ -23,7 +23,7 @@ class TestRelease:
         self.ability.goto_question().click_switchvoice().long_click_voice()
         assert "com.mmm.ability:id/tvDuration" in self.ability.driver.page_source
 
-    #失败用例示范
+    #失败用例示范1
     def test_voice_1(self):
         self.ability.goto_question().click_switchvoice().long_click_voice()
         assert "com.mmm.ability:id/tvDuration" not in self.ability.driver.page_source
